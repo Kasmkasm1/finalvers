@@ -1,77 +1,75 @@
 const productsData = [
-    // --- YATAKLAR (6 ÜRÜN) ---
+    // --- YATAKLAR (5 ÜRÜN) ---
     {
-        id: "ortopedik-pocket-yatak",
+        id: "Çift Ped Yatak",
         category: "yatak",
         categoryTitle: "Yatak Koleksiyonu",
-        title: "1. Premium Ortopedik Pocket Yaylı Yatak",
+        title: "1. Çift Megaliza Yatak",
         tagline: "Omurga dostu 7 bölgeli pocket yay teknolojisi ve pamuklu örme kumaş.",
         description: "Vücudun basınç noktalarına özel destek sunan bağımsız pocket yaylar, eşlerin uyku sırasındaki hareketlerinden etkilenmesini önler. Hava alan doğal pamuklu örme yüzeyiyle ferah bir uyku deneyimi sunar.",
         features: ["7 Bölgeli Bağımsız Pocket Yay", "Anti-Bakteriyel Örme Kumaş", "Çift Taraflı Kullanım", "Yüksek Yoğunluklu Destek Süngeri"],
-        dimensions: "90x190 | 120x200 | 150x200 | 160x200 | 180x200",
+        dimensions: " Ölçüler: 90x190 100x200 120x200 150x200 160x200 Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "yatak_img/ciftped.jpeg",
+            "yatak_img/ciftped.jpeg"
         ],
         priceNote: "Ölçü seçenekleri ve özel teklifler için iletişime geçiniz."
     },
     {
-        id: "luna-latex-yatak",
+        id: "Çift Yatık Yatak",
         category: "yatak",
         categoryTitle: "Yatak Koleksiyonu",
-        title: "2. Luna Doğal Lateks Yatak",
+        title: "2. Çift Yatık Yatak",
         tagline: "Doğal kauçuk özleriyle zenginleştirilmiş, nefes alan konfor katmanı.",
         description: "Luna Yatak, içeriğindeki %100 doğal lateks katmanı ile basınç noktalarını minimuma indirir. Terlemeyi önleyen özel hava kanallı yapısı ve esnek dokusuyla her uyku pozisyonunda üstün rahatlık sağlar.",
         features: ["Doğal Lateks Katman", "Hava Kanallı Terletmez Yapı", "Omurga Dostu Destek", "Yıkanabilir Fermuarlı Kılıf", "28 cm Kalınlık"],
-        dimensions: "100x200 | 150x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "yatak_img/ciftytk.jpeg",
+            "yatak_img/ciftytk.jpeg"
         ],
         priceNote: "Ölçüye göre fiyatlandırma ve sipariş detayları için lütfen iletişime geçiniz."
     },
     {
-        id: "visco-memory-yatak",
+        id: "Liza Large Yatak",
         category: "yatak",
         categoryTitle: "Yatak Koleksiyonu",
-        title: "3. Visco Memory Foam Terapi Yatağı",
+        title: "3. LizaLarge Yatak",
         tagline: "Vücut ısısına ve ağırlığına duyarlı akıllı sünger teknolojisi.",
         description: "Visco sünger teknolojisi vücudunuzun şeklini alarak kılcal damarlardaki kan dolaşımını rahatlatır. Güne zinde ve ağrısız uyanmanıza yardımcı olan terapötik konfor sunar.",
         features: ["Ağırlıksız Uyku Hissi", "Visco Memory Katman", "Kas ve Eklem Basıncını Azaltır", "Örme Tencel Kumaş"],
-        dimensions: "90x190 | 140x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "yatak_img/lizalarge.jpeg",
+            "yatak_img/lizalarge.jpeg"
         ],
         priceNote: "Ölçü seçenekleri için lütfen iletişime geçiniz."
     },
     {
-        id: "thermobond-elyaf-yatak",
+        id: "Pedli Yatak",
         category: "yatak",
         categoryTitle: "Yatak Koleksiyonu",
-        title: "4. Thermobond Elyaf Çift Taraflı Ortopedik Yatak",
+        title: "4. LizaLarge Pedli Yatak",
         tagline: "Yazlık ve kışlık çift taraflı kullanım, sert omurga desteği.",
         description: "Bir tarafı serin tutan pamuklu dokuma, diğer tarafı sıcak tutan yünlü katman ile üretilmiştir. İki farklı mevsimsel kullanım opsiyonu sunan uzun ömürlü ortopedik model.",
         features: ["Yazlık / Kışlık Çift Yüzey", "Thermobond Hijyenik Elyaf", "Sert/Orta-Sert Konfor", "Çelik Yay Karkası"],
-        dimensions: "90x190 | 120x200 | 150x200 | 160x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "yatak_img/pedli.jpeg",
+            "yatak_img/pedli.jpeg"
         ],
         priceNote: "Detaylar ve sipariş için iletişime geçiniz."
     },
     {
-        id: "hybrit-pedli-yatak",
+        id: "RozaLiza Yatak",
         category: "yatak",
         categoryTitle: "Yatak Koleksiyonu",
-        title: "5. Hybrit Pedli Kuş Tüyü Yatak",
+        title: "5. Rozaliza Yatak",
         tagline: "Entegre kuş tüyü sünger pedi ile bulutların üzerinde uyku konforu.",
-        description: "Ekstra fermuarlı üst pedi sayesinde bulut gibi yumuşak bir temas sağlarken, alt katmandaki paket yaylar omurganıza tam destek verir. Ped kısmı çıkarılıp temizlenebilir.",
-        features: ["Çıkarılabilir Kuş Tüyü Ped", "Hybrit Yay & Sünger Kombinasyonu", "Lüks Kapitone Dikişler", "32 cm Yatak Yüksekliği"],
-        dimensions: "150x200 | 160x200 | 180x200 | 200x200",
+        description: "Ekstra fermuarlı üst pedi sayesinde bulut gibi yumuşak bir temas sağlarken, alt katmandaki paket yaylar omurganıza tam destek verir.",
+        features: ["Hybrit Yay & Sünger Kombinasyonu", "Lüks Kapitone Dikişler"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "yatak_img/rozaliza.jpeg",
-
+            "yatak_img/rozaliza.jpeg"
         ],
         priceNote: "Özel ped ve ölçü seçenekleri için iletişime geçiniz."
     },
-
 
     // --- BAZALAR (9 ÜRÜN) ---
     {
@@ -82,11 +80,12 @@ const productsData = [
         tagline: "Geniş iç hacmi, dayanıklı çelik konstrüksiyonu ve kadife dokusuyla şıklık.",
         description: "Velvet baza, yatak odalarınızda maksimum depolama alanı yaratırken güçlü amortisör sistemi sayesinde kolayca açılır. Çizilmeye dayanıklı boyalı çelik gövdesi ve estetik ayak tasarımlarıyla uzun ömürlü kullanım sunar.",
         features: ["Geniş Sandık Hacmi", "Amortisörlü Emniyet Kilidi", "Güçlendirilmiş Çelik Profil Gövde", "Robot Süpürge Uyumlu Yüksek Ayak", "Kolay Silinebilir Kadife Kumaş"],
-        dimensions: "90x190 | 120x200 | 150x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
             "baza_img/e1.jpeg",
             "baza_img/e2.jpeg",
-            "baza_img/e3.jpeg"
+            "baza_img/e3.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
@@ -94,13 +93,14 @@ const productsData = [
         id: "monolit-sandiksiz-baza",
         category: "baza",
         categoryTitle: "Baza Koleksiyonu",
-        title: "2. Monolit Modern Sandıksız Baza",
+        title: "2. Japon (Sandıklı-Sandıksız) Baza",
         tagline: "Minimalist mekanlar için sade, zarif ve alçak profil tasarım.",
-        description: "Monolit, sandık ihtiyacı olmayan ancak yatağını modern bir platform üzerinde taşımak isteyenler için tasarlandı. Sağlam ahşap iskeleti ve zarif kumaş kaplamasıyla yatak odanıza sofistike bir hava katar.",
+        description: "Sağlam ahşap iskeleti ve zarif kumaş kaplamasıyla yatak odanıza sofistike bir hava katar. Japon (Sandıklı-Sandıksız)",
         features: ["Platform Ahşap İskelet", "Minimalist Alçak Tasarım", "Hava Alan Delikli Taban", "Farklı Renk Alternatifleri", "Sessiz ve Sağlam Yapı"],
-        dimensions: "140x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "baza_img/h1.jpeg"
+            "baza_img/h1.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
@@ -108,13 +108,14 @@ const productsData = [
         id: "royal-deri-baza",
         category: "baza",
         categoryTitle: "Baza Koleksiyonu",
-        title: "3. Royal Deri Kaplama Baza",
+        title: "3. Japon (Sandıklı-Sandıksız) Baza",
         tagline: "Suni deri şıklığı ve kolay temizlenebilir yüzeyi ile prestijli bir görünüm.",
-        description: "Royal Baza, silinebilir suni deri kaplaması ile pratik kullanım ve şıklığı bir arada sunar. Çift emniyetli kilit sistemine sahip güçlü amortisörleri güvenli kullanım sağlar.",
+        description: "Royal Baza, silinebilir. Çift emniyetli kilit sistemine sahip güçlü amortisörleri güvenli kullanım sağlar. Japon (Sandıklı-Sandıksız)",
         features: ["Kolay Silinebilir Suni Deri", "Çift Emniyetli Amortisör", "Yüksek Taşıma Kapasitesi", "Leke Tutmaz Dış Yüzey", "Paslanmaz Metal İskelet"],
-        dimensions: "100x200 | 150x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "baza_img/g1.jpeg"
+            "baza_img/g1.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
@@ -126,10 +127,11 @@ const productsData = [
         tagline: "Siyah elektrostatik boyalı çelik gövde ile maskülen ve endüstriyel tarz.",
         description: "Loft Baza, modern ve endüstriyel iç mekan tasarımları için özel olarak geliştirildi. Sağlam çelik strüktürü, esnemez taban profili ve yüksek ayaklarıyla hem fonksiyonel hem estetik bir tercihtir.",
         features: ["Elektrostatik Fırın Boya", "Gıcırdamaz Ekstra Dayanıklı Profil", "Yüksek Süpürülebilir Ayaklar", "Minimal Havalandırma Delikleri"],
-        dimensions: "120x200 | 160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
             "baza_img/d1.jpeg",
-            "baza_img/d2.jpeg"
+            "baza_img/d2.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
@@ -141,9 +143,10 @@ const productsData = [
         tagline: "İskandinav tarzının doğal sıcaklığı ve ahşap dokunuşları.",
         description: "Nordic Baza, masif ahşap ayakları ve keten dokumalı silinebilir kumaşıyla yatak odanıza ferah bir atmosfer kazandırır. Yüksek sandık kapasitesi eşyalarınızı düzenle saklamanızı sağlar.",
         features: ["Masif Ahşap Ayak Sistemi", "Doğal Keten Dokulu Kumaş", "Geniş Sandık Hacmi", "Sessiz Kapanan Amortisörler"],
-        dimensions: "90x190 | 140x200 | 160x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "baza_img/c1.jpeg"
+            "baza_img/c1.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve ahşap renk opsiyonları için iletişime geçiniz."
     },
@@ -155,9 +158,10 @@ const productsData = [
         tagline: "Etraflıca kapitoneli yan panelleriyle gösterişli ve zengin bir stil.",
         description: "Yan panellerinde özel el işçiliği Chester düğme çektirmeleri kullanılan bu baza modeli, klasik ve görkemli yatak odası dekorasyonlarının tamamlayıcısıdır.",
         features: ["Yan Panellerde El İşçiliği Kapitone", "Silinebilir Tay Tüyü Kumaş", "Çelik İç İskelet", "Yüksek Güvenlikli Havalı Amortisör"],
-        dimensions: "160x200 | 180x200 | 200x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "baza_img/b1.jpeg"
+            "baza_img/b1.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve kumaş seçenekleri için lütfen iletişime geçiniz."
     },
@@ -169,10 +173,11 @@ const productsData = [
         tagline: "Kumanda ile ayarlanabilir baş ve ayak kısmı ile kişiselleştirilmiş konfor.",
         description: "Televizyon izleme, kitap okuma veya dinlenme pozisyonlarınıza göre kumandası aracılığıyla baş ve ayak açısını ayarlayabileceğiniz akıllı motorlu baza sistemi.",
         features: ["Sessiz Çift Motorlu Mekanizma", "Uzaktan Kumandalı Ayar", "Ergonomik Bel ve Sırt Desteği", "Kesintisiz Güvenlik Kilidi"],
-        dimensions: "90x200 | 100x200 | 180x200 (Çift Motor)",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
             "baza_img/j1.jpeg",
-            "baza_img/j2.jpeg"
+            "baza_img/j2.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Motor sistem detayları ve sipariş için iletişime geçiniz."
     },
@@ -184,10 +189,11 @@ const productsData = [
         tagline: "Yere yakın alçak yapısı ve geniş ahşap kenar detaylarıyla huzurlu atmosfer.",
         description: "Japon Zen felsefesinden esinlenerek tasarlanan bu baza, odanıza ferahlık ve dinginlik kazandırır. Yere yakın dengeli yapısıyla ekstra konfor sunar.",
         features: ["Zen Alçak Platform Tasarım", "Masif Ahşap Kenar Kaplama", "Sarsılmaz Taban Desteği", "Leke Tutmaz Dokuma"],
-        dimensions: "160x200 | 180x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
             "baza_img/f1.jpg",
-            "baza_img/f2.jpg"
+            "baza_img/f2.jpg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve ahşap renk opsiyonları için iletişime geçiniz."
     },
@@ -199,9 +205,10 @@ const productsData = [
         tagline: "Küçük alanlarda maksimum depolama sağlayan ince panelli özel tasarım.",
         description: "Dar yatak odalarında alandan tasarruf etmek için dış ölçüleri minimize edilmiş, ancak iç sandık hacmi geniş tutulmuş kompakt sandıklı baza çözümü.",
         features: ["Yer Tasarrufu Sağlayan Slim Dış Paneller", "Derin Sandık Depolama Hacmi", "Emniyet Kilitli Amortisörler", "Robot Süpürgeye Uygun Yüksek Ayak"],
-        dimensions: "90x190 | 120x200 | 140x200 | 160x200",
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
         images: [
-            "baza_img/a1.jpeg"
+            "baza_img/a1.jpeg",
+            "kartela.jpeg"
         ],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
@@ -216,7 +223,7 @@ const productsData = [
         description: "Royal başlık, klasik kapitone sanatını modern çizgilerle harmanlıyor. Kalın sünger dolgusu sayesinde yaslandığınızda maksimum konfor sağlarken duvara monte veya baza bağlantılı esnek montaj imkanı sunar.",
         features: ["El İşçiliği Kapitone Dikişler", "Konforlu Yaslanma Süngeri", "Lüks Keten / Kadife Kumaş Seçenekleri", "Özel Ölçü Üretim", "Kolay Montaj Aparatları"],
         dimensions: "150'lik | 160'lık | 180'lik | 200'lük Baza Uyumlu",
-        images: ["baslik_img/001.jpeg", "baslik_img/002.jpeg"],
+        images: ["baslik_img/001.jpeg", "baslik_img/002.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -228,7 +235,7 @@ const productsData = [
         description: "Line başlık, sade ve net hatları sevenler için üretildi. Dikey fitil detayları odanızın tavan yüksekliğini optik olarak vurgularken nubuk veya keten dokuma kumaş opsiyonlarıyla her dekorasyona uyum sağlar.",
         features: ["Dikey Fitil Geometrik Tasarım", "Yüksek Yoğunluklu Sünger", "Leke Tutmaz Nubuk Seçeneği", "Sağlam Ahşap Karkas", "Ergonomik Yükseklik"],
         dimensions: "140'lık | 150'lik | 160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/011.jpeg", "baslik_img/112.jpeg"],
+        images: ["baslik_img/011.jpeg", "baslik_img/112.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -240,7 +247,7 @@ const productsData = [
         description: "Velvet Lüks Başlık, birinci sınıf kadife kumaş kalitesi ve özel sırt kavisleri ile okuma ve dinlenme saatlerinizi konfora dönüştürür. Çeşitli renk yelpazesiyle her odaya uyum sağlar.",
         features: ["1. Sınıf Kadife Kumaş", "Ergonomik Sırt Eğimi", "Özel Karkas Yapısı", "Kolay Temizlenebilir Dokuma", "Geniş Renk Seçeneği"],
         dimensions: "150'lik | 160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/121.jpeg", "baslik_img/122.jpeg"],
+        images: ["baslik_img/121.jpeg", "baslik_img/122.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
     {
@@ -252,7 +259,7 @@ const productsData = [
         description: "Minimal Slim, az yer kaplayan ancak şıklıktan ödün vermeyen yatak odaları için idealdir. Yalın tasarımıyla dikkat çeker.",
         features: ["İnce Profil Tasarım", "Minimalist Çizgiler", "Kompakt Ebat", "Sağlam Sabitleme"],
         dimensions: "90'lık | 140'lık | 160'lık Baza Uyumlu",
-        images: ["baslik_img/131.jpeg", "baslik_img/132.jpeg"],
+        images: ["baslik_img/131.jpeg", "baslik_img/132.jpeg", "kartela.jpeg"],
         priceNote: "Ölçüye göre fiyatlandırma için iletişime geçiniz."
     },
     {
@@ -264,7 +271,7 @@ const productsData = [
         description: "Derin düğme çektirmeleri ve gösterişli yapısıyla klasik dekorasyon tutkunlarının vazgeçilmez tercihi olan Chester başlık.",
         features: ["Derin Chester Düğmeler", "El İşçiliği Detaylar", "Geniş Gövde Yapısı", "Birinci Sınıf Kumaş"],
         dimensions: "160'lık | 180'lik | 200'lük Baza Uyumlu",
-        images: ["baslik_img/141.jpeg", "baslik_img/142.jpeg"],
+        images: ["baslik_img/141.jpeg", "baslik_img/142.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -276,7 +283,7 @@ const productsData = [
         description: "Geometrik kare dikiş hatlarıyla odanıza modern bir mimari dokunuş katan şık başlık modeli.",
         features: ["Simetrik Kare Bloklar", "Modern Tasarım", "Yüksek Konforlu Sünger", "Kolay Montaj"],
         dimensions: "150'lik | 160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/151.jpeg", "baslik_img/152.jpeg"],
+        images: ["baslik_img/151.jpeg", "baslik_img/152.jpeg", "kartela.jpeg"],
         priceNote: "Ölçüye göre fiyatlandırma için iletişime geçiniz."
     },
     {
@@ -288,7 +295,7 @@ const productsData = [
         description: "Doğal keten kumaş dokusu ve ahşap detaylarıyla bohem tarzı sevenler için özel olarak tasarlandı.",
         features: ["Doğal Keten Doku", "Ahşap Detaylar", "Huzurlu Renk Paleti", "Ekolojik Malzeme"],
         dimensions: "140'lık | 160'lık Baza Uyumlu",
-        images: ["baslik_img/161.jpeg", "baslik_img/162.jpeg"],
+        images: ["baslik_img/161.jpeg", "baslik_img/162.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -300,7 +307,7 @@ const productsData = [
         description: "Yatak başlığının yanlarına entegre edilen panelleriyle yatak odanıza otel süiti konforu getiren ihtişamlı tasarım.",
         features: ["Entegre Komodin Panelleri", "Geniş Form", "LED Aydınlatma Uyumlu", "Özel Ölçü Üretim"],
         dimensions: "160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/171.jpeg"],
+        images: ["baslik_img/171.jpeg", "kartela.jpeg"],
         priceNote: "Ölçüye göre fiyatlandırma için iletişime geçiniz."
     },
     {
@@ -312,7 +319,7 @@ const productsData = [
         description: "Masif ahşap çerçeve ve yumuşak kumaş dolgunun muazzam uyumuyla nostaljik esintiler taşıyan başlık.",
         features: ["Masif Ahşap Çerçeve", "Vintage Tasarım Çizgisi", "Dayanıklı Gövde", "Özel Boya Opsiyonları"],
         dimensions: "150'lik | 160'lık Baza Uyumlu",
-        images: ["baslik_img/181.jpeg"],
+        images: ["baslik_img/181.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve renk seçenekleri için lütfen iletişime geçiniz."
     },
     {
@@ -324,7 +331,7 @@ const productsData = [
         description: "Yan taraflarındaki hafif kavisli kulak yapısıyla size sarılıyor hissi veren, son derece konforlu yaslanma başlığı.",
         features: ["Kavisli Kulak Tasarımı", "Yüksek Konfor", "Leke Tutmaz Kumaş", "Akustik Rahatlık"],
         dimensions: "160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/191.jpeg"],
+        images: ["baslik_img/191.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -336,7 +343,7 @@ const productsData = [
         description: "Modern sanat çizgilerinden ilham alınarak tasarlanan asimetrik hatlara sahip özgün ve çarpıcı başlık modeli.",
         features: ["Asimetrik Dikiş Sanatı", "Özgün Tasarım", "Kaliteli Dolgu Süngeri", "Modern Görünüm"],
         dimensions: "150'lik | 160'lık Baza Uyumlu",
-        images: ["baslik_img/201.jpeg"],
+        images: ["baslik_img/201.jpeg", "kartela.jpeg"],
         priceNote: "Ölçüye göre fiyatlandırma için iletişime geçiniz."
     },
     {
@@ -348,7 +355,7 @@ const productsData = [
         description: "Özel el işçiliği kapitone dikişleri arasına yerleştirilen parıltılı düğme detaylarıyla yatak odanıza ihtişam katar.",
         features: ["Kristal Düğme Detayları", "Parıltılı Şık Doku", "Geniş Renk Skalası", "Sağlam Karkas"],
         dimensions: "160'lık | 180'lik Baza Uyumlu",
-        images: ["baslik_img/211.jpeg"],
+        images: ["baslik_img/211.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
     {
@@ -360,7 +367,7 @@ const productsData = [
         description: "Tavana doğru uzanan yüksek formuyla odanıza saraylara layık heybetli bir estetik ve zenginlik kazandıran başlık.",
         features: ["Ekstra Yüksek Form", "Görkemli Duruş", "Üstün Kalite Sünger", "Özel Duvar Sabitleme"],
         dimensions: "160'lık | 180'lık | 200'lük Baza Uyumlu",
-        images: ["baslik_img/221.jpeg"],
+        images: ["baslik_img/221.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve kumaş değişimi için lütfen iletişime geçiniz."
     },
 
@@ -373,8 +380,8 @@ const productsData = [
         tagline: "Görkemli kapitone başlık, derin sandıklı baza ve ortopedik hybrid yatak uyumu.",
         description: "Yatak odanızda otel süiti konforunu yakalayın. Yüksek sandık hacmi, çift emniyetli amortisör sistemi ve pocket yaylı ortopedik yatağıyla eksiksiz bir uyku deneyimi sunar.",
         features: ["Kapitone İşlemeli Özel Başlık", "Geniş Sandık Hacimli Baza", "7 Bölgeli Pocket Yay Yatak", "Leke Tutmaz Kadife Dokuma"],
-        dimensions: "150x200 | 160x200 | 180x200",
-        images: ["set_img/a1.jpeg", "set_img/a2.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/a1.jpeg", "set_img/a2.jpeg", "kartela.jpeg"],
         priceNote: "Özel kumaş ve ölçü paketleri için iletişime geçiniz."
     },
     {
@@ -385,8 +392,8 @@ const productsData = [
         tagline: "İskandinav sade çizgileri, ahşap ayak detayları ve doğal keten kumaş.",
         description: "Doğallığı ve ferahlığı sevenler için tasarlanan bu set, masif ahşap ayak yapısı ve pamuk lifli nefes alan yatağıyla uyku kalitenizi yükseltir.",
         features: ["Masif Ahşap Baza ve Başlık Detayı", "Nefes Alan Keten Dokusu", "Visko Sünger Destekli Yatak", "Sessiz Kapanan Amortisör"],
-        dimensions: "140x200 | 160x200 | 180x200",
-        images: ["set_img/b1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/b1.jpeg", "kartela.jpeg"],
         priceNote: "Renk ve ölçü varyasyonları için iletişime geçiniz."
     },
     {
@@ -397,8 +404,8 @@ const productsData = [
         tagline: "Yumuşak kadife dokusu ve altın detaylı başlık kavisleriyle saray konforu.",
         description: "Göz alıcı kadife kumaş kaplaması ve ergonomik yaslanma açısına sahip başlığıyla yatak odanızı lüks bir yaşam alanına dönüştürür.",
         features: ["Altın Şerit Detaylı Başlık", "Ağır Yük Taşıyan Çelik Profil Baza", "Anti-Bakteriyel Lateks Yatak", "Robot Süpürge Uyumlu Ayak"],
-        dimensions: "160x200 | 180x200 | 200x200",
-        images: ["set_img/c1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/c1.jpeg", "kartela.jpeg"],
         priceNote: "Özel ölçü seçenekleri için iletişime geçiniz."
     },
     {
@@ -409,8 +416,8 @@ const productsData = [
         tagline: "Mat siyah metal detaylar, maskülen hatlar ve sert ortopedik destek.",
         description: "Modern ve endüstriyel stilde dekore edilmiş evler için elektrostatik siyah fırın boyalı strüktür ile dinamik bir görünüm.",
         features: ["Elektrostatik Metal İskelet", "Gıcırdamaz Kilit Sistemi", "Sert/Orta Sert Omurga Yatağı", "Minimalist İnce Başlık"],
-        dimensions: "120x200 | 160x200 | 180x200",
-        images: ["set_img/d1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/d1.jpeg", "kartela.jpeg"],
         priceNote: "Metal renk ve kumaş seçenekleri için iletişime geçiniz."
     },
     {
@@ -421,8 +428,8 @@ const productsData = [
         tagline: "El işçiliği derin kapitone düğmeleri ve heybetli tasarım.",
         description: "Geleneksel zarafetle üretilen Chester set, yan panellerinde ve başlığında yer alan yoğun düğme çektirmeleriyle odanın yıldızı olur.",
         features: ["Derin Chester El İşçiliği", "Silinebilir Tay Tüyü Kumaş", "Derin İç Sandık Hacmi", "Ekstra Yoğunluklu Yay Sistemi"],
-        dimensions: "160x200 | 180x200 | 200x200",
-        images: ["set_img/e1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/e1.jpeg", "kartela.jpeg"],
         priceNote: "Kumaş kartelası ve teklif için iletişime geçiniz."
     },
     {
@@ -433,8 +440,8 @@ const productsData = [
         tagline: "Yere yakın dingin form, geniş ahşap çerçeve ve organik pamuk yatak.",
         description: "Uzak doğu felsefesinden ilham alan minimalist ve dengeli tasarım. Yere yakın yapısı odanızı olduğundan daha ferah ve geniş gösterir.",
         features: ["Zen Platform Çerçeve", "Organik Pamuk Örme Kumaş", "Basınç Dengeli Memory Foam", "Alçak Profil Modern Estetik"],
-        dimensions: "160x200 | 180x200",
-        images: ["set_img/f1.jpeg", "set_img/f2.jpeg", "set_img/f3.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/f1.jpeg", "set_img/f3.jpeg", "kartela.jpeg"],
         priceNote: "Ölçü ve ahşap tonları için iletişime geçiniz."
     },
     {
@@ -445,8 +452,8 @@ const productsData = [
         tagline: "Uzaktan kumandalı hareketli baza ve sırt destekli ergonomik yatak.",
         description: "Tek tuşla baş ve ayak açısını ayarlayarak kitap okuma, tv izleme ve dinlenme konumuna geçebileceğiniz yüksek teknolojili uyku seti.",
         features: ["Sessiz Çift Motor Mekanizması", "Kablosuz Uzaktan Kumanda", "Esnek Katlanabilir Özel Yatak", "Emniyet Kilitli Motor"],
-        dimensions: "90x200 | 100x200 | 180x200",
-        images: ["set_img/g1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/g1.jpeg", "kartela.jpeg"],
         priceNote: "Motor teknolojisi ve detaylar için iletişime geçiniz."
     },
     {
@@ -457,8 +464,8 @@ const productsData = [
         tagline: "Dikey hatlı modern başlık, silinebilir nubuk doku ve tam ortopedik yatak.",
         description: "Tavan yüksekliğini öne çıkaran dikey çizgili başlık tasarımı, şık sandıklı baza ve tam destek sağlayan yaylı yatak kombinasyonu.",
         features: ["Dikey Fitil Desenli Başlık", "Leke Tutmaz Nubuk Kumaş", "Çift Emniyet Kilitli Baza", "Omurga Dostu Sünger Dolgu"],
-        dimensions: "140x200 | 150x200 | 160x200 | 180x200",
-        images: ["set_img/14a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/14a.jpg", "kartela.jpeg"],
         priceNote: "Renk alternatifleri için iletişime geçiniz."
     },
     {
@@ -469,8 +476,8 @@ const productsData = [
         tagline: "Sıcak krem tonları, keten ve hasır dokunuşlar, anti-alerjik yatak.",
         description: "Yatak odanızda huzurlu ve bohem bir atmosfer yaratır. Doğal elyaflarla zenginleştirilmiş kumaşı hassas ciltler için son derece uygundur.",
         features: ["Doğal Dokuma Keten Kumaş", "Anti-Alerjik Yatak Yüzeyi", "Ahşap Detaylı Baza Ayakları", "Geniş Saklama Deposu"],
-        dimensions: "140x200 | 160x200",
-        images: ["set_img/15a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/15a.jpg", "kartela.jpeg"],
         priceNote: "Ölçü bilgisi için iletişime geçiniz."
     },
     {
@@ -481,8 +488,8 @@ const productsData = [
         tagline: "Genişletilmiş başlık panelleri, entegre gece lambası uyumu ve pedli yatak.",
         description: "Otel konseptinden ilham alan genişletilmiş yan panelleriyle duvarınızı baştan başa kaplayan görkemli premium set.",
         features: ["Genişletilmiş Duvar Panelleri", "Lüks Visco Pedli Yatak", "Yüksek Taşıma Kapasitesi", "Özel Dokulu Süet Kumaş"],
-        dimensions: "160x200 | 180x200 | 200x200",
-        images: ["set_img/16a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/16a.jpg", "kartela.jpeg"],
         priceNote: "Özel proje ve ebat talepleri için iletişime geçiniz."
     },
     {
@@ -493,8 +500,8 @@ const productsData = [
         tagline: "Kompakt paneller, maksimum sandık derinliği ve ergonomik ortopedik yatak.",
         description: "Küçük metrekareli yatak odalarında alandan maksimum tasarruf sağlamak için minimal kalınlıkta dış hatlarla üretilmiştir.",
         features: ["İnce Profil Dış Gövde", "Robot Süpürge Yüksekliği", "Derin Depolama Sandığı", "Orta Sertlikte Yaylı Yatak"],
-        dimensions: "90x190 | 120x200 | 140x200 | 160x200",
-        images: ["set_img/18a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/18a.jpg", "kartela.jpeg"],
         priceNote: "Dar alan çözümleri için lütfen iletişime geçiniz."
     },
     {
@@ -505,8 +512,8 @@ const productsData = [
         tagline: "Saten dokulu parlak kumaş, pirinç detaylı ayaklar ve kuş tüyü pedli yatak.",
         description: "Işıltıyı sevenlerin tercihi. Pirinç ayak kaplamaları ve yumuşak ped katmanı sayesinde bulutların üzerinde uyku hissi sunar.",
         features: ["Pirinç Detaylı Lüks Ayaklar", "Kuş Tüyü Sünger Ped Yatak", "Silinebilir Parlak Saten Kumaş", "Sessiz Baza Amortisörleri"],
-        dimensions: "160x200 | 180x200",
-        images: ["set_img/20a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/20a.jpg", "kartela.jpeg"],
         priceNote: "Detaylı fiyatlandırma için iletişime geçiniz."
     },
     {
@@ -517,8 +524,8 @@ const productsData = [
         tagline: "Mat antrasit tonları, modern kare başlık dikişleri ve sert yatak desteği.",
         description: "Yalın antrasit gri renk paleti ve zamansız geometrik kare dikişleriyle modern odalara mükemmel uyum sağlar.",
         features: ["Kare Dikişli Modern Başlık", "Antrasit Leke Tutmaz Kumaş", "Güçlendirilmiş Çelik İskelet", "Full Ortopedik Destek"],
-        dimensions: "150x200 | 160x200 | 180x200",
-        images: ["set_img/21a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/21a.jpg", "kartela.jpeg"],
         priceNote: "Ölçü ve sipariş için iletişime geçiniz."
     },
     {
@@ -529,8 +536,8 @@ const productsData = [
         tagline: "Zümrüt yeşili kadife, altın düğmeler ve anatomik pocket yay yatak.",
         description: "Yatak odasında cesur renkleri sevenler için tasarlanan bu set, derin zümrüt yeşili tonu ve gold aksanlarıyla dikkat çeker.",
         features: ["Zümrüt Yeşili Zengin Kadife", "Gold Detaylı Düğme/Ayak", "Anatomik 5 Bölgeli Yatak", "Geniş Depolama Alanı"],
-        dimensions: "160x200 | 180x200",
-        images: ["set_img/22a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/22a.jpg", "kartela.jpeg"],
         priceNote: "Kumaş renk seçenekleri için iletişime geçiniz."
     },
     {
@@ -541,8 +548,8 @@ const productsData = [
         tagline: "%100 doğal lateks yatak, yıkanabilir kılıf ve ahşap karkas baza.",
         description: "Sağlıklı ve ekolojik uykuyu önceliklendirenler için doğal kauçuk ağacı sütünden üretilen lateks yataklı set.",
         features: ["%100 Doğal Lateks Yatak Katmanı", "Fermuarlı Yıkanabilir Kılıf", "Sessiz Ahşap Platform Baza", "Hava Dolaşımlı Yapı"],
-        dimensions: "150x200 | 160x200 | 180x200",
-        images: ["set_img/24a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/24a.jpg", "kartela.jpeg"],
         priceNote: "Lateks kalınlık seçenekleri için iletişime geçiniz."
     },
     {
@@ -553,8 +560,8 @@ const productsData = [
         tagline: "Taba rengi eskitme suni deri, sağlam gövde ve hipoalerjenik yatak.",
         description: "Karakterli ve sıcak bir atmosfer arayanlar için taba rengi deri görünümü ve kolay silinebilir yüzey kalitesi.",
         features: ["Eskitme Taba Deri Kaplama", "Kolay Nemli Bezle Temizlik", "Çelik Profil İskelet", "Alerjen Karşıtı Kumaş Yüzey"],
-        dimensions: "140x200 | 160x200 | 180x200",
-        images: ["set_img/33a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/33a.jpg", "kartela.jpeg"],
         priceNote: "Deri renk seçenekleri için iletişime geçiniz."
     },
     {
@@ -565,8 +572,8 @@ const productsData = [
         tagline: "Sarma hissi veren kavisli yan kulaklar ve ekstra kalın sünger dolgu.",
         description: "Sırtınızı yasladığınızda sizi saran kavisli başlık kulakları, akustik izolasyon hissi ve üstün konfor sunar.",
         features: ["Kavisli Kulak Tasarımlı Başlık", "Yüksek Yoğunluklu Sünger", "Amortisör Emniyet Kilitli Baza", "Çift Yönlü Kullanılabilir Yatak"],
-        dimensions: "160x200 | 180x200 | 200x200",
-        images: ["set_img/36a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/36a.jpg", "kartela.jpeg"],
         priceNote: "Sipariş ve detay için iletişime geçiniz."
     },
     {
@@ -577,8 +584,8 @@ const productsData = [
         tagline: "Sıcak vizon ve sütlü kahve tonları, yumuşak dokulu örme kumaş.",
         description: "Yatak odasına dinlendirici ve soft bir hava katan cappuccino tonlarında zarif kapitone dikişli set.",
         features: ["Yumuşak Tuşeli Dokuma Kumaş", "Omurgayı Destekleyen Pocket Yay", "Yüksek Sandık Kapasitesi", "Sessiz Havalı Amortisör"],
-        dimensions: "150x200 | 160x200 | 180x200",
-        images: ["set_img/37a.jpg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/37a.jpg", "kartela.jpeg"],
         priceNote: "Ölçü ve renk opsiyonları için iletişime geçiniz."
     },
     {
@@ -589,8 +596,8 @@ const productsData = [
         tagline: "Metropol yaşamına özel dinamik, sade ve yer kaplamayan fonksiyonel set.",
         description: "Modern şehir daireleri için tasarlanmış yalın formlar, hafif yapı ve uzun ömürlü çelik konstrüksiyon.",
         features: ["Fonksiyonel Kompakt Yapı", "Elektrostatik Boyalı Metal İskelet", "Orta Sertlikte Visco Yatak", "Robot Süpürge Uyumlu"],
-        dimensions: "120x200 | 140x200 | 160x200",
-        images: ["set_img/gem1.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/gem1.jpeg", "kartela.jpeg"],
         priceNote: "Fiyat ve teslimat bilgisi için iletişime geçiniz."
     },
     {
@@ -601,8 +608,8 @@ const productsData = [
         tagline: "Kristal taşlı düğme detayları, kadife kumaş ve yüksek yatak pedi.",
         description: "Başlığında yer alan kristal düğmeler ışığı yansıtarak odanıza pırıltılı ve şık bir atmosfer kazandırır.",
         features: ["Işıltılı Kristal Taşlı Düğmeler", "Ekstra Pedli Rahat Yatak", "Yüksek Taşıma Kapasiteli Sandık", "Dayanıklı Tay Tüyü Dokuma"],
-        dimensions: "160x200 | 180x200",
-        images: ["set_img/gem2.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/gem2.jpeg", "kartela.jpeg"],
         priceNote: "Işıltılı kumaş seçenekleri için iletişime geçiniz."
     },
     {
@@ -613,8 +620,8 @@ const productsData = [
         tagline: "Lacivert ve marin tonları, ferahlatıcı jelli soğutmalı yatak katmanı.",
         description: "Sıcak yaz gecelerinde serin tutan Jel teknolojili yatağı ve derin lacivert başlık kaplamasıyla ferahlık sağlar.",
         features: ["Serinletici Jel Teknolojili Yatak", "Lacivert Silinebilir Kumaş", "Sağlam Profil Gövde", "Emniyet Kilitli Sandık"],
-        dimensions: "150x200 | 160x200 | 180x200",
-        images: ["set_img/gem3.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/gem3.jpeg", "kartela.jpeg"],
         priceNote: "Soğutmalı yatak seçenekleri için iletişime geçiniz."
     },
     {
@@ -625,8 +632,8 @@ const productsData = [
         tagline: "Doğal meşe ağacı çerçöveler, pastel kumaş ve bambu örme yatak.",
         description: "Doğal meşe dokusunun sıcaklığı ve bambu lifli anti-bakteriyel yatak yüzeyi ile sağlıklı uyku hissi.",
         features: ["Masif Meşe Ağacı Kaplama Çerçeve", "Bambu Lifli Yatak Kumaşı", "Yüksek Hava Geçirgenliği", "Sessiz Baza İskeleti"],
-        dimensions: "140x200 | 160x200 | 180x200",
-        images: ["set_img/gem4.jpeg"],
+        dimensions: "Ölçüler: 90x190 100x200 120x200 150x200 160x200      Özel ölçüler: 140x190 140x200 180x200 200x200",
+        images: ["set_img/gem4.jpeg", "kartela.jpeg"],
         priceNote: "Meşe renk opsiyonları için iletişime geçiniz."
     }
 ];
@@ -722,11 +729,11 @@ function renderHomePage() {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Yatak Card -->
                 <div onclick="router('category', 'yatak')" class="group relative h-[420px] rounded-2xl overflow-hidden cursor-pointer shadow-xl transition-all duration-500 hover:-translate-y-2">
-                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80" alt="Yataklar" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    <img src="yatak_img/ciftped.jpeg" alt="Yataklar" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                     <div class="absolute inset-0 bg-gradient-to-t from-brand-900/90 via-brand-900/30 to-transparent flex flex-col justify-end p-6 text-white">
                         <span class="text-xs tracking-widest uppercase text-amber-200 mb-1 font-semibold">Konfor & Sağlık</span>
-                        <h3 class="font-serif text-2xl font-bold mb-2">Yataklar </h3>
-                        <p class="text-xs text-brand-200/90 mb-4 line-clamp-2">Omurga sağlığınızı destekleyen ortopedik, lateks, visco ve bambu yatak modellerimiz.</p>
+                        <h3 class="font-serif text-2xl font-bold mb-2">Yataklar</h3>
+                        <p class="text-xs text-brand-200/90 mb-4 line-clamp-2">Omurga sağlığınızı destekleyen ortopedik, lateks, visco ve pedli yatak modellerimiz.</p>
                         <span class="inline-flex items-center gap-2 text-sm font-semibold text-amber-200 group-hover:translate-x-2 transition-transform">
                             <span>Modelleri İncele</span>
                             <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -785,7 +792,7 @@ function renderHomePage() {
                     <div class="w-14 h-14 rounded-full bg-brand-900 text-amber-200 flex items-center justify-center mx-auto mb-5 text-xl">
                         <i class="fa-solid fa-award"></i>
                     </div>
-                    <h4 class="font-serif text-lg font-bold mb-2">10 Yıl Garanti</h4>
+                    <h4 class="font-serif text-lg font-bold mb-2">Müşteri Memnuniyeti</h4>
                     <p class="text-sm text-brand-800/70">Üstün malzeme kalitesi ve sağlam iskelet yapımızla uzun yıllar güvenle kullanın.</p>
                 </div>
                 <div class="p-6">
@@ -800,7 +807,7 @@ function renderHomePage() {
                         <i class="fa-solid fa-truck-fast"></i>
                     </div>
                     <h4 class="font-serif text-lg font-bold mb-2">Profesyonel Kurulum</h4>
-                    <p class="text-sm text-brand-800/70">İstanbul içi ücretsiz teslimat ve uzman ekibimizle evinizde kurulum hizmeti.</p>
+                    <p class="text-sm text-brand-800/70">Ücretsiz teslimat ve uzman ekibimizle evinizde kurulum hizmeti.</p>
                 </div>
             </div>
         </section>
@@ -816,7 +823,7 @@ function renderCategoryPage(categoryKey) {
         set: "Set Koleksiyonu"
     };
     const categorySubtitles = {
-        yatak: "Omurga sağlığınızı destekleyen, günün yorgunluğunu unutturan 6 farklı ortopedik uyku sistemi.",
+        yatak: "Omurga sağlığınızı destekleyen, günün yorgunluğunu unutturan özel ortopedik uyku sistemleri.",
         baza: "Geniş depolama alanları, sağlam çelik yapısı ve estetik tasarımlarıyla 9 farklı baza modeli.",
         baslik: "Yatak odanıza karakter ve zarif bir atmosfer kazandıran 13 farklı başlık tasarımı.",
         set: "Baza, yatak ve başlığın mükemmel uyumuyla yatak odanız için bütünsel çözümler."
@@ -887,8 +894,12 @@ function renderDetailPage(productId) {
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                 <!-- Image Gallery Carousel Card -->
                 <div class="space-y-4">
-                    <div class="relative h-[350px] sm:h-[480px] rounded-2xl overflow-hidden bg-brand-100 shadow-xl border border-brand-200/60">
+                    <div class="relative h-[350px] sm:h-[480px] rounded-2xl overflow-hidden bg-brand-100 shadow-xl border border-brand-200/60 group cursor-zoom-in" onclick="openImageModal(document.getElementById('mainCarouselImage').src)">
                         <img id="mainCarouselImage" src="${product.images[0]}" alt="${product.title}" class="w-full h-full object-cover transition-all duration-300">
+                        <div class="absolute bottom-3 right-3 bg-brand-900/70 text-white text-xs px-3 py-1.5 rounded-full backdrop-blur-md flex items-center gap-1.5 opacity-90 group-hover:opacity-100 transition-opacity">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Büyütmek için tıklayın</span>
+                        </div>
                     </div>
                     <!-- Gallery Thumbnails Switcher -->
                     <div class="flex gap-4 overflow-x-auto pb-2">
@@ -948,7 +959,36 @@ function renderDetailPage(productId) {
                 </div>
             </div>
         </div>
+
+        <!-- Image Lightbox Modal Overlay -->
+        <div id="imageModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4 animate-fade-in" onclick="closeImageModal()">
+            <button onclick="closeImageModal()" class="absolute top-6 right-6 text-white text-3xl hover:text-amber-300 focus:outline-none transition-colors z-10" aria-label="Kapat">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="max-w-5xl max-h-[90vh] flex items-center justify-center p-2" onclick="event.stopPropagation()">
+                <img id="modalFullImage" src="" alt="Büyütülmüş Görsel" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl">
+            </div>
+        </div>
     `;
+}
+
+// Lightbox Modal Functions
+function openImageModal(imgSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalFullImage');
+    if (modal && modalImg) {
+        modalImg.src = imgSrc;
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
